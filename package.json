@@ -1,0 +1,27 @@
+{
+  "name": "pecode_test_task",
+  "version": "1.0.0",
+  "description": "Cypress UI Automation framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbrah/pecode_test_task.git"
+  },
+  "author": "Vladyslav Braha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vbrah/pecode_test_task/issues"
+  },
+  "homepage": "https://github.com/vbrah/pecode_test_task#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cypress": "^13.10.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
